@@ -17,6 +17,11 @@ Category.init(
       // turn on auto increment
       autoIncrement: true,
     },
+    category_name: {
+      // define a category_name column
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
   },
   {
     sequelize,
